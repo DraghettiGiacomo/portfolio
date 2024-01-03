@@ -16,6 +16,11 @@ p {
     padding: 0;
 }
 
+html::-webkit-scrollbar {
+    width: 20px;
+    color: red;
+}
+
 li {
     list-style-type: none;
 }
