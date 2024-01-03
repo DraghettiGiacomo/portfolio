@@ -28,7 +28,6 @@ html::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 9px;
 }
-
 /* SCROLLBAR */
 
 li {
@@ -37,6 +36,11 @@ li {
 
 a {
     text-decoration: none;
+}
+
+#hero {
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 #imageProfile{
@@ -49,7 +53,6 @@ a {
     border-radius: 100em;
 }
 
-#hero {
-    margin-top: 20%;
-    margin-bottom: 20%;
+i{
+    font-size: 3em;
 }
