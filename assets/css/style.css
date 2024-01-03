@@ -1,7 +1,35 @@
+
 body {
-    background-color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-i {
-    font-size: 4em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#imageProfile{
+    background-image: url(/assets/img/IMG_20231227_103722-removebg-preview.png);
+    background-size: cover;
+    background-color: lightgray;
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 100em;
 }
