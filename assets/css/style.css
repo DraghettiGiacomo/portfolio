@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,6 +24,7 @@ p {
 html::-webkit-scrollbar {
     width: 9px;
 }
+
 /* html::-webkit-scrollbar-track {
 
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
@@ -33,6 +33,7 @@ html::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 9px;
 }
+
 /* SCROLLBAR */
 
 /* NAVBAR */
@@ -55,7 +56,7 @@ a {
     width: 100%;
 }
 
-#imageProfile{
+#imageProfile {
     background-image: url(../img/IMG_20231227_103722-removebg-preview.png);
     background-size: cover;
     background-color: lightgray;
@@ -65,6 +66,59 @@ a {
     border-radius: 100em;
 }
 
-i{
+i {
     font-size: 3em;
 }
+
+
+/* ASIDE - WORKS */
+
+/* #larghezzaContenitoreTitle{
+    width: 99vw;
+    overflow-x: hidden;
+} */
+
+#works{
+    width: fit-content;
+    position: relative;
+    /* animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: fit-content; */
+}
+
+#titleWorks {
+    font-weight: bold;
+    font-size: 22em;
+    opacity: 15%;
+}
+
+/* @keyframes example {
+    from {left: 0%; right: 45%;}
+    to {left: 45%; right: 0%;}
+}
+
+
+@media screen and (min-width: 992px) {
+    #titleWorks {
+        font-size: 19em;
+    }
+}
+@media screen and (min-width: 768px) {
+    #titleWorks {
+        font-size: 15em;
+    }
+}
+@media screen and (min-width: 576px) {
+    #titleWorks {
+        font-size: 15em;
+    }
+}
+@media screen and (max-width: 576px) {
+    #titleWorks {
+        font-size: 11em;
+    }
+} */
+
+/* ASIDE - WORKS */
