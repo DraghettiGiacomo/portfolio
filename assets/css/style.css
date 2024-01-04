@@ -73,19 +73,9 @@ i {
 
 /* ASIDE - WORKS */
 
-/* #larghezzaContenitoreTitle{
-    width: 99vw;
-    overflow-x: hidden;
-} */
-
 #works{
     width: fit-content;
     position: relative;
-    /* animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    width: fit-content; */
 }
 
 #titleWorks {
@@ -93,32 +83,5 @@ i {
     font-size: 22em;
     opacity: 15%;
 }
-
-/* @keyframes example {
-    from {left: 0%; right: 45%;}
-    to {left: 45%; right: 0%;}
-}
-
-
-@media screen and (min-width: 992px) {
-    #titleWorks {
-        font-size: 19em;
-    }
-}
-@media screen and (min-width: 768px) {
-    #titleWorks {
-        font-size: 15em;
-    }
-}
-@media screen and (min-width: 576px) {
-    #titleWorks {
-        font-size: 15em;
-    }
-}
-@media screen and (max-width: 576px) {
-    #titleWorks {
-        font-size: 11em;
-    }
-} */
 
 /* ASIDE - WORKS */
