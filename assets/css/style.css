@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,6 +46,7 @@ a {
 #hero {
     margin-top: 15%;
     margin-bottom: 15%;
+    width: 100%;
 }
 
 #imageProfile{
