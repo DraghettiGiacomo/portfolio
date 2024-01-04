@@ -1,8 +1,8 @@
 
 /* ---------*************** ANIMATION TITLE ***************--------- */
 
-let posizioneFinale = 22;
-let incremento = 5;
+let posizioneFinale = 18;
+let incremento = 2;
 
 window.addEventListener('scroll', function() {
     if(window.pageYOffset > 400){
@@ -17,7 +17,7 @@ function animationTitle(){
         document.getElementById('works').style.margin = '0 auto'
     } else {
         document.getElementById('works').style.left = incremento + '%'
-        incremento += 5
+        incremento += 2
     }
 }
 
