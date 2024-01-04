@@ -73,6 +73,11 @@ i {
 
 /* ASIDE - WORKS */
 
+#larghezzaContenitoreTitleWorks{
+    position: relative;
+    margin-bottom: 9%;
+}
+
 #works{
     width: fit-content;
     position: relative;
@@ -83,5 +88,38 @@ i {
     font-size: 22em;
     opacity: 15%;
 }
+
+
+/* single work */
+
+#worksSection{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.singleWork{
+    margin-bottom: 2%;
+    padding: 2%;
+    border-bottom: 1px solid black;
+
+    position: relative;
+}
+
+.singleWork:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.singleWork:hover .previewWork{
+    position: absolute;
+    right: 10%;
+    z-index: 22;
+
+    width: 400px;
+    height: 280px;
+    background-color: #828282;
+}
+
+/* single work */
 
 /* ASIDE - WORKS */
