@@ -15,6 +15,7 @@ function animationTitle(){
         console.log('finito');
         Session.Contents.Remove( incremento )
         document.getElementById('works').style.margin = '0 auto'
+        document.getElementById('works').style.left = '0'
     } else {
         document.getElementById('works').style.left = incremento + '%'
         incremento += 2
