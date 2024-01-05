@@ -1,5 +1,5 @@
 
-/* ---------*************** ANIMATION TITLE ***************--------- */
+/* ---------*************** ANIMATION TITLE ***************--------- 
 
 let posizioneFinale = 18;
 let incremento = 0;
@@ -15,8 +15,7 @@ function animationTitle(){
         console.log('finito');
         incremento = 0;
         Session.Contents.Remove( incremento )
-        /* document.getElementById('works').style.margin = '0 auto'
-        document.getElementById('works').style.left = '0' */
+
     } else {
         document.getElementById('works').style.left = incremento + '%'
         incremento += 2
