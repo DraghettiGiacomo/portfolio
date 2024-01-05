@@ -51,8 +51,8 @@ a {
 }
 
 #hero {
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 12%;
+    margin-bottom: 9%;
     width: 100%;
 }
 
@@ -99,8 +99,7 @@ i {
 }
 
 .singleWork{
-    margin-bottom: 2%;
-    padding: 2%;
+    padding: 4%;
     border-bottom: 1px solid black;
 
     position: relative;
