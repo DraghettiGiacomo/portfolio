@@ -80,7 +80,6 @@ i {
 
 #larghezzaContenitoreTitleWorks{
     position: relative;
-    /* margin-top: 9%; */
     margin-bottom: 9%;
 }
 
@@ -96,12 +95,18 @@ i {
 }
 
 @media screen and (max-width: 576px) {
+    #larghezzaContenitoreTitleWorks{
+        margin-top: 22%;
+    }
     #titleWorks {
-        font-size: 5em;
+        font-size: 6em;
     }
 }
 
 @media screen and (min-width: 576px) {
+    #larghezzaContenitoreTitleWorks{
+        margin-top: 22%;
+    }
     #titleWorks {
         font-size: 10em;
     }
