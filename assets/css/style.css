@@ -78,9 +78,13 @@ i {
 
 /* WORKS */
 
+#altezzaContenitoreTitleWorks{
+    margin-bottom: 22%;
+}
+
 #larghezzaContenitoreTitleWorks{
     position: relative;
-    margin-bottom: 9%;
+    margin-bottom: 70%;
 }
 
 #works{
