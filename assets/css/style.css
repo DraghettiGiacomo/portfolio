@@ -33,10 +33,10 @@ html::-webkit-scrollbar {
     width: 9px;
 }
 
-/* html::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
 
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
-} */
+}
 html::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 9px;
@@ -89,10 +89,10 @@ i {
 }
 
 
-/* WORKS 
+/* WORKS */
 
 #altezzaContenitoreTitleWorks{
-    /* margin-bottom: 22%; 
+    margin-bottom: 22%; 
     margin-top: 17em;
     margin-bottom: 9em;
 }
@@ -102,7 +102,7 @@ i {
 }
 
 #works{
-    /* width: fit-content;
+    width: fit-content;
     position: relative; 
     position: absolute;
 }
@@ -167,7 +167,7 @@ i {
 }
 /* single work */
 
-/* #worksSection{
+#worksSection{
     position: relative;
 } 
 
@@ -209,7 +209,7 @@ i {
 
         display: block;
     
-        //per fare lanimazione delle preview dei lavori bisogna faer con un transition e un'immagine più lunga e un contenitore che non faccia vedere altre i bordi 
+        /* per fare lanimazione delle preview dei lavori bisogna faer con un transition e un'immagine più lunga e un contenitore che non faccia vedere altre i bordi */ 
     }
 }
 
