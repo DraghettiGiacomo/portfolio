@@ -89,10 +89,10 @@ i {
 }
 
 
-/* WORKS */
+/* WORKS 
 
 #altezzaContenitoreTitleWorks{
-    /* margin-bottom: 22%; */
+    /* margin-bottom: 22%; 
     margin-top: 17em;
     margin-bottom: 9em;
 }
@@ -103,7 +103,7 @@ i {
 
 #works{
     /* width: fit-content;
-    position: relative; */
+    position: relative; 
     position: absolute;
 }
 
@@ -169,7 +169,7 @@ i {
 
 /* #worksSection{
     position: relative;
-} */
+} 
 
 .singleWork{
     padding: 4%;
