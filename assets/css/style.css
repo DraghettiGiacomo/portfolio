@@ -209,7 +209,7 @@ i {
 
         display: block;
     
-        /* per fare lanimazione delle preview dei lavori bisogna faer con un transition e un'immagine più lunga e un contenitore che non faccia vedere altre i bordi */
+        //per fare lanimazione delle preview dei lavori bisogna faer con un transition e un'immagine più lunga e un contenitore che non faccia vedere altre i bordi 
     }
 }
 
