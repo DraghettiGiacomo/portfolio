@@ -221,8 +221,11 @@ i {
 /* CONTACT */
 
 #contactSection{
-    margin-top: 20%;
-    margin-bottom: 15%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    padding: 99px;
+    border-radius: 99px;
+    box-shadow: /* inset */ 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
 }
 
 .bottoneCss{
