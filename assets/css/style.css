@@ -51,6 +51,7 @@ html::-webkit-scrollbar-thumb {
     top: 0;
     background-color: white;
     z-index: 99;
+    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
 }
 
 /* NAVBAR */
@@ -72,11 +73,12 @@ a {
 #imageProfile {
     background-image: url(../img/IMG_20231227_103722-removebg-preview.png);
     background-size: cover;
-    background-color: lightgray;
     height: 19rem;
     width: 19rem;
-    border: 2px solid black;
-    border-radius: 100em;
+    /* background-color: lightgray; */
+    /* border: 2px solid black; */
+    box-shadow: inset 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+    border-radius: 50em;
 }
 
 i {
@@ -198,7 +200,9 @@ i {
 
 @media screen and (min-width: 992px) {
     .singleWork:hover{
-        box-shadow: 5px 10px 18px #888888;
+        /* box-shadow: 5px 10px 18px #888888; */
+        box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+        border-bottom: 0px;
     }
     
     .singleWork:hover .previewWorkIMG{
@@ -266,7 +270,7 @@ i {
 
 #footerContainer{
     background-color: white;
-    box-shadow: 0px -1px 9px #888888;
+    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
 }
 
 /* FOOTER */

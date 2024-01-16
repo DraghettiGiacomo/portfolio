@@ -3,7 +3,6 @@ let footerContainer = document.getElementById('footerContainer')
 
 let populationFooterContainer = () => {
     let footer = document.createElement('div')
-    footer.classList.add = 'shadow-sm'
     footer.innerHTML = `
         <div id="copyrightSection" class="container py-4 mt-1">
             <div class="row d-flex justify-content-between align-items-center">

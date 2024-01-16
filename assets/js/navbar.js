@@ -4,7 +4,7 @@ let navbarContainer = document.getElementById('navbarContainer')
 const populateNavbarContainer = () => {
     let navbar = document.createElement('div')
     navbar.innerHTML = `
-    <nav id="navabr" class="navbar navbar-expand-lg px-4 shadow-sm position-fixed">
+    <nav id="navabr" class="navbar navbar-expand-lg px-4 position-fixed">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Giacomo Draghetti</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
