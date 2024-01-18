@@ -1,4 +1,4 @@
-/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO (https://www.youtube.com/watch?v=zskMCU1AIsM --->> per cambiarlo in base al tema del computer)  **************--------------- */
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
 
 [data-theme="light"]{
     --bg: whitesmoke;
@@ -20,7 +20,22 @@
 }
 [data-theme="dark"] #themeMode .dark{display: none;}
 
-/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO (https://www.youtube.com/watch?v=zskMCU1AIsM --->> per cambiarlo in base al tema del computer)  **************--------------- */
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
+
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA DEL COMPUTER **************--------------- */
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --bg: #222;
+    --text: #eeeeee;
+    --shadow: rgba(0, 0, 0, 0.2);
+    --btn: #3f3f3f;
+    --icons: #6b757dff;
+    --bgScrollBar: #ccc;
+    }
+}
+
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA DEL COMPUTER **************--------------- */
 
 * {
     margin: 0;
