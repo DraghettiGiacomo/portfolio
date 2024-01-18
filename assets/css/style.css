@@ -22,8 +22,7 @@
 
 /* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
 
-/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA DEL COMPUTER **************--------------- */
-
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA DEL COMPUTER **************--------------- 
 @media (prefers-color-scheme: dark){
     :root{
         --bg: #222;
@@ -34,7 +33,6 @@
     --bgScrollBar: #ccc;
     }
 }
-
 /* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA DEL COMPUTER **************--------------- */
 
 * {
