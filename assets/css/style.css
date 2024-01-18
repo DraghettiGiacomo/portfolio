@@ -1,3 +1,25 @@
+[data-theme="light"]{
+    --bg: whitesmoke;
+    --text: #222;
+    --shadow: rgba(0, 0, 0, 0.09);
+    --btn: #cbcbcb;
+    --icons: #6b757dff;
+    --bgImg: rgba(239, 239, 239, 0.81);
+}
+[data-theme="light"] #themeMode .light{display: none;}
+
+[data-theme="dark"]{
+    --bg: #222;
+    --text: #eeeeee;
+    --shadow: rgba(0, 0, 0, 0.2);
+    --btn: #3f3f3f;
+    --icons: #6b757dff;
+    --bgImg: rgba(239, 239, 239, 0.05);
+}
+[data-theme="dark"] #themeMode .dark{display: none;}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +29,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: var(--bg);
     position: relative;
 }
 
@@ -20,12 +42,12 @@ h6,
 p {
     margin: 0;
     padding: 0;
-    color: black;
+    color: var(--text);
     width: fit-content;
 }
 
 h4:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--text);
 }
 
 /* SCROLLBAR */
@@ -49,9 +71,29 @@ html::-webkit-scrollbar-thumb {
 #navabr{
     width: 100%;
     top: 0;
-    background-color: white;
+    background-color: var(--bg);
     z-index: 99;
-    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 9px 9px var(--shadow);
+}
+
+.nav-link,
+.navbar-brand,
+.copy {
+    color: var(--text);
+}
+
+.nav-link:hover,
+.navbar-brand:hover{
+    color: var(--text);
+}
+
+.dark,
+.light{
+    font-size: 1.5em;
+}
+
+#themeMode{
+    cursor: pointer;
 }
 
 /* NAVBAR */
@@ -75,15 +117,15 @@ a {
     background-size: cover;
     height: 19rem;
     width: 19rem;
-    /* background-color: lightgray; */
-    /* border: 2px solid black; */
-    box-shadow: inset 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+    /* background-color: var(--bgImg); */
+    /* border: 2px solid var(--text); */
+    box-shadow: inset 0px 0px 9px 9px var(--shadow);
     border-radius: 50em;
 }
 
 i {
     font-size: 2em;
-    color: black;
+    color: var(--text);
 }
 
 .dimensioneI {
@@ -175,7 +217,7 @@ i {
 
 .singleWork{
     padding: 4%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid rgb(147, 147, 147); */
 
     position: relative;
 }
@@ -189,7 +231,7 @@ i {
     width: 480px;
     height: 310px;
     object-fit: contain;
-    background-color: black;
+    background-color: var(--bgImg);
 }
 
 @media screen and (max-width: 992px) {
@@ -201,7 +243,10 @@ i {
 @media screen and (min-width: 992px) {
     .singleWork:hover{
         /* box-shadow: 5px 10px 18px #888888; */
-        box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 9px 9px var(--shadow);
+        /* background-color: rgb(158, 158, 158); */
+        /* background: rgb(158,158,158);
+background: linear-gradient(180deg, rgba(158,158,158,1) 22%, rgba(158,158,158,0) 100%); */
         border-bottom: 0px;
     }
     
@@ -229,20 +274,20 @@ i {
     margin-bottom: 9%;
     padding: 99px;
     border-radius: 99px;
-    box-shadow: /* inset */ 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+    box-shadow: /* inset */ 0px 0px 9px 9px var(--shadow);
 }
 
 .bottoneCss{
     position: relative;
     text-align: center;
-    color: black;
+    color: var(--text);
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid var(--text);
     font-weight: 600;
 }
 
 .bottoneCss .sfondo{
-    background-color: #cbcbcb;
+    background-color: var(--btn);
     width: calc(100% + 7px);
     height: 52px;
     position: absolute;
@@ -252,7 +297,7 @@ i {
 }
 
 .bottoneCss:hover{
-    color: black;
+    color: var(--text);
     text-decoration: underline;
 }
 
@@ -269,8 +314,31 @@ i {
 /* FOOTER */
 
 #footerContainer{
-    background-color: white;
-    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.09);
+    background-color: var(--bg);
+    box-shadow: 0px 0px 9px 9px var(--shadow);
+}
+
+/* #arrowForTop{
+    bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+ */
+#arrowForTop i,
+.hoverIconContacts i,
+.dark,
+.light{
+    color: var(--icons);
+}
+#arrowForTop:hover i,
+.hoverIconContacts:hover i,
+.dark:hover,
+.light:hover{
+    color: var(--text);
 }
 
 /* FOOTER */
+
+
+/* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO IN BASE AL TEMA CHE SI HA SUL COMPUTER (https://www.youtube.com/watch?v=zskMCU1AIsM)  **************--------------- 
+

@@ -1,7 +1,7 @@
 
 let navbarContainer = document.getElementById('navbarContainer')
 
-const populateNavbarContainer = () => {
+const populateNavbarContainer = () => { //nel link per i lavori ho inserito l'ID del contenitore superiore per far si di far vedere bene la sezione lavori
     let navbar = document.createElement('div')
     navbar.innerHTML = `
     <nav id="navabr" class="navbar navbar-expand-lg px-4 position-fixed">
@@ -17,15 +17,16 @@ const populateNavbarContainer = () => {
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">About</a>
+            <a class="nav-link" href="#programKnow" uk-scroll>Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#altezzaContenitoreTitleWorks">Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contactSection">Contacts</a>
+            <a class="nav-link" href="#contactSection" uk-scroll >Contacts</a>
           </li>
         </ul>
+      </div>
+      <div id="themeMode" class="ms-4" onclick="changeTheme()">
+        <i class="bi bi-sun-fill light"></i>
+        <i class="bi bi-moon-fill dark"></i>
       </div>
     </div>
   </nav>
