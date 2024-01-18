@@ -4,7 +4,7 @@
     --shadow: rgba(0, 0, 0, 0.09);
     --btn: #cbcbcb;
     --icons: #6b757dff;
-    --bgImg: rgba(239, 239, 239, 0.81);
+    --bgScrollBar: rgba(0, 0, 0, 0.2);
 }
 [data-theme="light"] #themeMode .light{display: none;}
 
@@ -14,7 +14,7 @@
     --shadow: rgba(0, 0, 0, 0.2);
     --btn: #3f3f3f;
     --icons: #6b757dff;
-    --bgImg: rgba(239, 239, 239, 0.05);
+    --bgScrollBar: #ccc;
 }
 [data-theme="dark"] #themeMode .dark{display: none;}
 
@@ -60,7 +60,7 @@ html::-webkit-scrollbar {
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 } */
 html::-webkit-scrollbar-thumb {
-    background: #ccc;
+    background: var(--bgScrollBar);
     border-radius: 9px;
 }
 
