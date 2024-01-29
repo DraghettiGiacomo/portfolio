@@ -7,6 +7,8 @@
     --btn: #cbcbcb;
     --icons: #6b757dff;
     --bgScrollBar: rgba(0, 0, 0, 0.2);
+
+
 }
 [data-theme="light"] #themeMode .light{display: none;}
 
@@ -19,6 +21,25 @@
     --bgScrollBar: #ccc;
 }
 [data-theme="dark"] #themeMode .dark{display: none;}
+
+/* .color{
+    --white: #EDEEF0;
+    --whiteMiddle: #E1E3E6;
+    --whiteGrey: #B1B5B7;
+    --grey: #5D5F64;
+    --blackGrey: #27292A;
+    --blackMiddle: #1C1D1F;
+    --black: #141415;
+} */
+
+.newColorWhite{
+    --bg: #EDEEF0;
+    --text: #1C1D1F;
+    --shadow: #141415;
+    --btn: #B1B5B7;
+    --icons: #5D5F64;
+    --bgScrollBar: #141415;
+}
 
 /* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
 
