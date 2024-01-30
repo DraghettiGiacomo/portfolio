@@ -6,7 +6,7 @@
     --shadow: #14141522;
     --btn: #B1B5B7;
     --icons: #5D5F64;
-    --bgScrollBar: #141415;
+    --bgScrollBar: #14141522 ;
     --textWorks: #141415;
 }
 [data-theme="light"] #themeMode .light{display: none;}
