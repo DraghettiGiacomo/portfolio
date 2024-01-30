@@ -12,7 +12,7 @@ let populationFooterContainer = () => {
                 </div>
                 <div class="col d-flex gap-2 justify-content-end">
                     <a class="hoverIconContacts" href="https://www.linkedin.com/in/giacomo-draghetti-111398264/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a class="hoverIconContacts" href="#"><i class="bi bi-github"></i></a>
+                    <a class="hoverIconContacts" href="https://github.com/DraghettiGiacomo" target="_blank"><i class="bi bi-github"></i></a>
                 </div>
             </div>
         </div>

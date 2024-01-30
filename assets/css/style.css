@@ -1,24 +1,24 @@
 /* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
 
 [data-theme="light"]{
-    --bg: whitesmoke;
-    --text: #222;
-    --shadow: rgba(0, 0, 0, 0.09);
-    --btn: #cbcbcb;
-    --icons: #6b757dff;
-    --bgScrollBar: rgba(0, 0, 0, 0.2);
-
-
+     --bg: #EDEEF0;
+    --text: #1C1D1F;
+    --shadow: #14141522;
+    --btn: #B1B5B7;
+    --icons: #5D5F64;
+    --bgScrollBar: #141415;
+    --textWorks: #141415;
 }
 [data-theme="light"] #themeMode .light{display: none;}
 
 [data-theme="dark"]{
-    --bg: #222;
-    --text: #eeeeee;
-    --shadow: rgba(0, 0, 0, 0.2);
-    --btn: #3f3f3f;
-    --icons: #6b757dff;
-    --bgScrollBar: #ccc;
+    --bg: #1C1D1F;
+    --text: #EDEEF0;
+    --shadow: #14141590;
+    --btn: #5D5F64;
+    --icons: #B1B5B7;
+    --bgScrollBar: #EDEEF0;
+    --textWorks: #EDEEF0;
 }
 [data-theme="dark"] #themeMode .dark{display: none;}
 
@@ -31,15 +31,6 @@
     --blackMiddle: #1C1D1F;
     --black: #141415;
 } */
-
-.newColorWhite{
-    --bg: #EDEEF0;
-    --text: #1C1D1F;
-    --shadow: #141415;
-    --btn: #B1B5B7;
-    --icons: #5D5F64;
-    --bgScrollBar: #141415;
-}
 
 /* ---------------************** REGOLE CSS PER LA MODALITA DARK DEL SITO **************--------------- */
 
@@ -191,6 +182,7 @@ i {
     font-weight: bold;
     font-size: 22em;
     opacity: 5%;
+    color: var(--textWorks);
 }
 
 @media screen and (max-width: 399px) {
@@ -264,10 +256,10 @@ i {
 
 .previewWorkIMG{
     display: none;
-    width: 480px;
-    height: 310px;
+    /* width: 480px; */
+    width: 320px;
+    height: 100%;
     object-fit: contain;
-    background-color: var(--bgImg);
 }
 
 @media screen and (max-width: 992px) {
@@ -289,7 +281,7 @@ background: linear-gradient(180deg, rgba(158,158,158,1) 22%, rgba(158,158,158,0)
     .singleWork:hover .previewWorkIMG{
         position: absolute;
         right: 7%;
-        top: -22%;
+        top: 0;
         z-index: 22;
 
         display: block;
